@@ -1,13 +1,16 @@
 <div class="posts">
     {{#each posts as |post|}}
+    <div class="container" id={{post.id}}>
     <div class="container">
         <div class="card mt-2">
-            <div class="card-header" id={{post.id}}>{{post.title}} {{format_date post.date_created}}</div>
+        <div class="card-header">{{post.title}}</div>
+        <div class="card-body">
+            <p class="card-text">{{post.content}}</p>
+            <button type="submit" class="btn btn-primary update" id={{post.id}}>UPDATE</button>
+            <button type="submit" class="btn btn-danger delete" id={{post.id}}>DELETE</button>
+        </div>
+            <div class="card-header" id={{post.id}}>{{post.title}} <span class="date">{{format_date post.date_created}}</span></div>
         </div>
     </div>
     {{/each}}
 </div>
-
-{{#if post}}
-<script src="./js/dashboard.js"></script>
-{{/if}}
