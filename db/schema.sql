@@ -1,2 +1,2 @@
-DROP DATABASE IF EXISTS bryon-tech-blog;
-CREATE DATABASE bryon-tech-blog;
+DROP DATABASE IF EXISTS bryon_tech_blog;
+CREATE DATABASE bryon_tech_blog;
