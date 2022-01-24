@@ -1,7 +1,7 @@
 # Tech Blog 
 Homework 14
 
-![Screenshot of App](./doc/ScreenShot.png) 
+![Screenshot of App](assets/ScreenShot.png) 
 
 # Link to deployed app
 
