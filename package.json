@@ -20,6 +20,7 @@
     "express-session": "^1.17.1",
     "handlebars": "^4.7.7",
     "mysql2": "^2.2.5",
+    "seed": "^0.4.4",
     "sequelize": "^6.3.5"
   }
 }
